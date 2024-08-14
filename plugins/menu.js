@@ -9,7 +9,7 @@ import fs from 'fs'
 
 const defaultMenu = {
   before: `
-> *ᴍʏ ɴᴀᴍᴇ ɪꜱ RAYANE ɪ'ᴍ ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀᴛɪꜰɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ. ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴜʟᴛɪᴘʟᴇ ꜱᴇʀᴠɪᴄᴇꜱ. ɪ ᴡᴀꜱ ᴄʀᴇᴀᴛᴇᴅ ʙʏ @rz1_lh_05*
+> *ᴍʏ ɴᴀᴍᴇ ɪꜱ 𝚛𝚊𝚢𝚊𝚗𝚎 ɪ'ᴍ ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀᴛɪꜰɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ. ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴜʟᴛɪᴘʟᴇ ꜱᴇʀᴠɪᴄᴇꜱ. ɪ ᴡᴀꜱ ᴄʀᴇᴀᴛᴇᴅ ʙʏ @rz1_lh_05*
 
 > ▧ Salam : %name
 > ▧ Uptime : %muptime
@@ -106,7 +106,7 @@ let handler = async (m, { conn, usedPrefix, command, __dirname, isOwner, isMods,
     let totalreg = Object.keys(global.db.data.users).length
     let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
     let listCmd =  `
-> ᴍʏ ɴᴀᴍᴇ ɪꜱ RAYANE ɪ'ᴍ ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀᴛɪꜰɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ. ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴜʟᴛɪᴘʟᴇ ꜱᴇʀᴠɪᴄᴇꜱ. ɪ ᴡᴀꜱ ᴄʀᴇᴀᴛᴇᴅ ʙʏ @rz1_lh_05
+> ᴍʏ ɴᴀᴍᴇ ɪꜱ 𝚛𝚊𝚢𝚊𝚗𝚎 ɪ'ᴍ ᴀ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀᴛɪꜰɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ. ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴜʟᴛɪᴘʟᴇ ꜱᴇʀᴠɪᴄᴇꜱ. ɪ ᴡᴀꜱ ᴄʀᴇᴀᴛᴇᴅ ʙʏ @rz1_lh_05
 
 
 > ▧ Uptime : ${muptime}
@@ -137,7 +137,7 @@ let handler = async (m, { conn, usedPrefix, command, __dirname, isOwner, isMods,
    // let hwaifu = JSON.parse(fs.readFileSync('./json/hwaifu.json', 'utf-8'))
 
     if (teks == '404') {
-        return conn.sendButtonImg(m.chat, 'https://telegra.ph/file/5dbcf152d3991a9b81f60.jpg', "", listCmd.trim(), " ", buttons, m, { 
+        return conn.sendButtonImg(m.chat, 'https://telegra.ph/file/ff3d421a2b8b3a1900cb7.jpg', "", listCmd.trim(), " ", buttons, m, { 
             contextInfo: {
                 mentionedJid: [m.sender],
             }
@@ -217,9 +217,9 @@ let handler = async (m, { conn, usedPrefix, command, __dirname, isOwner, isMods,
 						title: `إضغط هنا لمتابعة صانع البوت في حسابه `,
 						containsAutoReply: true,
 						mediaType: 1,
-						thumbnailUrl: `https://telegra.ph/file/b306e14fc211f1e47875a.jpg`,
+						thumbnailUrl: `https://telegra.ph/file/ff3d421a2b8b3a1900cb7.jpg`,
 						mediaUrl: ``,
-						sourceUrl: "https://instagram.com/noureddine_ouafy",
+						sourceUrl: "https://www.instagram.com/rz1_lh_05?igsh=YTQwZjQ0NmI0OA==",
 					},
 				},
 			},
