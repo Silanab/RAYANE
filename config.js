@@ -10,7 +10,7 @@ global.setting = {
 
 global.owner = [
 ['212649515064', 'ريان', true],
-['212707676259', 'nawfal', true],
+['212707676259', 'nawfal', false],
 ['', '', false]
 ]
 
