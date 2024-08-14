@@ -137,7 +137,7 @@ let handler = async (m, { conn, usedPrefix, command, __dirname, isOwner, isMods,
    // let hwaifu = JSON.parse(fs.readFileSync('./json/hwaifu.json', 'utf-8'))
 
     if (teks == '404') {
-        return conn.sendButtonImg(m.chat, 'https://telegra.ph/file/ff3d421a2b8b3a1900cb7.jpg', "", listCmd.trim(), " ", buttons, m, { 
+        return conn.sendButtonImg(m.chat, 'https://telegra.ph/file/4f00a13e28d7d564e30ca.jpg', "", listCmd.trim(), " ", buttons, m, { 
             contextInfo: {
                 mentionedJid: [m.sender],
             }
@@ -217,7 +217,7 @@ let handler = async (m, { conn, usedPrefix, command, __dirname, isOwner, isMods,
 						title: `إضغط هنا لمتابعة صانع البوت في حسابه `,
 						containsAutoReply: true,
 						mediaType: 1,
-						thumbnailUrl: `https://telegra.ph/file/ff3d421a2b8b3a1900cb7.jpg`,
+						thumbnailUrl: `https://telegra.ph/file/4f00a13e28d7d564e30ca.jpg`,
 						mediaUrl: ``,
 						sourceUrl: "https://www.instagram.com/rz1_lh_05?igsh=YTQwZjQ0NmI0OA==",
 					},
@@ -269,4 +269,4 @@ function clockString(ms) {
 
 function capitalize(word) {
   return word.charAt(0).toUpperCase() + word.substr(1)
-}
+	    }
